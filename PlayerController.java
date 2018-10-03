@@ -6,7 +6,7 @@ import java.util.InputMismatchException;
 
 public class PlayerController{
     private List<Player> players;
-    public PlayerController(List<Player> players){
+    public PlayerController(){
         this.players = new ArrayList<Player>();
     }
     public List<Player> getPlayers(){

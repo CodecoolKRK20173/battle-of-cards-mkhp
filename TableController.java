@@ -34,8 +34,13 @@ public class TableController {
         return wonPlayers;
     }
   
-    public void collectCardsByWinner(){
-
+    public void sendCardsToWinner(List<Player> wonPlayers, List<Card> playedCards){
+		while(playedCards.size() != 0){
+			for(Player player: wonPlayers){
+				player.getHand().add(playedCards.get(0));
+				playedCards.remove(0);
+			}
+		}
     }
 }
 

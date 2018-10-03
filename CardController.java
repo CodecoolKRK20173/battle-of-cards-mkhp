@@ -7,6 +7,7 @@ public class CardController{
 
     private Card card = new Card();
 	private CardParser cardParser = new CardParser();
+	private PlayerController playerController = new PlayerController();
 	
     public void shuffleCards(){
         Collections.shuffle(cardParser.getDeck());
@@ -17,9 +18,17 @@ public class CardController{
         cards.remove(cards.size() - 1);
     }
 
-    public void sendCardToPlayer(Card card, Player player){
+    public void sendCardToPlayer(){
         shuffleCards();
-        // TO DO
+		List<Player> players = playerController.getPlayers();
+		while(cardParser.getDeck().size() != 0){
+			for(Player player: players){
+				player.getHand().add(cardParser.getDeck().get(0));
+				cardParser.getDeck().remove(0);
+
+			}
+		}
+				
     }
 
     public int getDealerParameter(String key){
