@@ -2,8 +2,8 @@
 <Cards>
 	<Card name="a">
 		<Statistic id="a">3</Statistic>
-		<Statistic id="b">5</Statistic>
-		<Statistic id="c">8</Statistic>
+		<Statistic id="b">3</Statistic>
+		<Statistic id="c">2</Statistic>
 		<Statistic id="d">6</Statistic>
 	</Card>
 	<Card name="b">

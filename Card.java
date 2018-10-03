@@ -24,6 +24,10 @@ public class Card{
         this.wrapping = wrapping;
         this.hangover = hangover;
         this.name=name;
+        this.stats.put("type", Integer.parseInt(type));
+        this.stats.put("procent", Integer.parseInt(procent));
+        this.stats.put("wrapping", Integer.parseInt(wrapping));
+        this.stats.put("hangover", Integer.parseInt(hangover));
     }
 	
 	public int getDealerParameter(String key){

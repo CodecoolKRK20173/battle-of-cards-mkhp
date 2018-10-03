@@ -8,7 +8,10 @@ public class TableController {
 	
 	public TableController(){
 		this.table = new Table();
-	}
+    }
+    public Table getTable(){
+        return this.table;
+    }
 
     public int checkMaxCardParam(ArrayList<Card> listOfCards){
         List<Integer> checkingParam = new ArrayList<>();
