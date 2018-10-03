@@ -4,11 +4,37 @@ import java.util.Scanner;
 import java.util.InputMismatchException;
 
 
+
 public class PlayerController{
     private List<Player> players;
     public PlayerController(){
         this.players = new ArrayList<Player>();
+		createPlayers();
+		
+		
     }
+	
+	public void createPlayers(){
+		Scanner in = new Scanner(System.in);
+		int numberOfPlayers=0;
+		try{
+			System.out.print("How many players? " );
+			numberOfPlayers = in.nextInt();
+		}
+		catch(InputMismatchException e){
+			System.out.println(e);
+		}
+		in.nextLine();
+		for(int i=0; i<numberOfPlayers;i++){
+			System.out.print("\nEnter nick : ");
+			String nick=in.nextLine();
+			players.add(new Player(nick));
+		}
+	
+		
+	}
+	
+	
     public List<Player> getPlayers(){
         return this.players;
     }
