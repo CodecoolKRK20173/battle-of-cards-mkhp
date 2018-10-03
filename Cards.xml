@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cards>
+	<Card name="a">
+		<Statistic id="a">3</Statistic>
+		<Statistic id="b">5</Statistic>
+		<Statistic id="c">8</Statistic>
+		<Statistic id="d">6</Statistic>
+	</Card>
+	<Card name="b">
+		<Statistic id="a">3</Statistic>
+		<Statistic id="b">5</Statistic>
+		<Statistic id="c">8</Statistic>
+		<Statistic id="d">6</Statistic>
+	</Card>
+	<Card name="c">
+		<Statistic id="a">3</Statistic>
+		<Statistic id="b">5</Statistic>
+		<Statistic id="c">8</Statistic>
+		<Statistic id="d">6</Statistic>
+	</Card>
+	<Card name="d">
+		<Statistic id="a">3</Statistic>
+		<Statistic id="b">5</Statistic>
+		<Statistic id="c">8</Statistic>
+		<Statistic id="d">6</Statistic>
+	</Card>
+	<Card name="e">
+		<Statistic id="a">3</Statistic>
+		<Statistic id="b">5</Statistic>
+		<Statistic id="c">8</Statistic>
+		<Statistic id="d">6</Statistic>
+	</Card>
+	<Card name="f">
+		<Statistic id="a">3</Statistic>
+		<Statistic id="b">5</Statistic>
+		<Statistic id="c">8</Statistic>
+		<Statistic id="d">6</Statistic>
+	</Card>
+	<Card name="g">
+		<Statistic id="a">3</Statistic>
+		<Statistic id="b">5</Statistic>
+		<Statistic id="c">8</Statistic>
+		<Statistic id="d">6</Statistic>
+	</Card>
+	<Card name="h">
+		<Statistic id="a">3</Statistic>
+		<Statistic id="b">5</Statistic>
+		<Statistic id="c">8</Statistic>
+		<Statistic id="d">6</Statistic>
+	</Card>
+	<Card name="i">
+		<Statistic id="a">3</Statistic>
+		<Statistic id="b">5</Statistic>
+		<Statistic id="c">8</Statistic>
+		<Statistic id="d">6</Statistic>
+	</Card>
+	<Card name="j">
+		<Statistic id="a">3</Statistic>
+		<Statistic id="b">5</Statistic>
+		<Statistic id="c">8</Statistic>
+		<Statistic id="d">6</Statistic>
+	</Card>
+	<Card name="k">
+		<Statistic id="a">3</Statistic>
+		<Statistic id="b">5</Statistic>
+		<Statistic id="c">8</Statistic>
+		<Statistic id="d">6</Statistic>
+	</Card>
+	<Card name="l">
+		<Statistic id="a">3</Statistic>
+		<Statistic id="b">5</Statistic>
+		<Statistic id="c">8</Statistic>
+		<Statistic id="d">6</Statistic>
+	</Card>
+	<Card name="m">
+		<Statistic id="a">3</Statistic>
+		<Statistic id="b">5</Statistic>
+		<Statistic id="c">8</Statistic>
+		<Statistic id="d">6</Statistic>
+	</Card>
+	<Card name="n">
+		<Statistic id="a">3</Statistic>
+		<Statistic id="b">5</Statistic>
+		<Statistic id="c">8</Statistic>
+		<Statistic id="d">6</Statistic>
+	</Card>
+</Cards>
