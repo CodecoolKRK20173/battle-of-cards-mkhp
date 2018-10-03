@@ -1,18 +1,22 @@
 import org.w3c.dom.*;
 import javax.xml.parsers.*;
 import java.io.*;
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class CardParser{
 
-	//private List<Card> deck;
+	private List<Card> deck;
 	Document document;
-	CardParser(){
+	public CardParser(){
+		this.deck=new ArrayList<>();
 		this.document=uploadFile("Cards.xml");
 		createDeck(this.document);
-//		this.deck=new LinkedList<>();
 	
+	}
+	
+	public List<Card> getDeck(){
+		return this.deck;
 	}
 	
 	
@@ -29,7 +33,7 @@ public class CardParser{
 		return null;
 	}
 	
-	public LinkedList createDeck(Document doc){
+	public List createDeck(Document doc){
 			String a="";
 			String b="";
 			String c="";
@@ -45,18 +49,15 @@ public class CardParser{
 				b=statisticList.item(1).getTextContent();
 				c=statisticList.item(2).getTextContent();
 				d=statisticList.item(3).getTextContent();
-				//this.deck.add(new Card(cardName,a,b,c,d));
+				this.deck.add(new Card(cardName,a,b,c,d));
 				
 			System.out.println();
 			}
-		//return this.deck;
-		
+		return this.deck;
 	
 	}
 	
-	public static void main(String args[]){
-		CardParser a=new CardParser();
-	}
+
 	
 	
 }

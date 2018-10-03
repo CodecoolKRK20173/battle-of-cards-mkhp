@@ -19,14 +19,14 @@ public class PlayerController{
         int whoIsDealer = 0;
         return whoIsDealer;
     }
-    public Integer dealerChooseParam(){ 
+    public String dealerChooseParam(){ 
         Scanner in = new Scanner(System.in);
         try {
             System.out.println("Enter param: ");
-            int chosenParam = in.nextInt();
+            String chosenParam = in.next();
             return chosenParam;
         } catch (InputMismatchException e){
-            System.out.println("Please enter valid number");
+            System.out.println("Please enter valid name");
         }  finally {
             in.close();
         }

@@ -10,6 +10,9 @@ public class Card{
 
     private String name;
     private Map<String, Integer> stats = new HashMap<>();
+	
+	
+	
 
     public Card(){
 
@@ -21,6 +24,15 @@ public class Card{
         this.wrapping = wrapping;
         this.hangover = hangover;
         this.name=name;
+    }
+	
+	public int getDealerParameter(String key){
+        for (Map.Entry<String, Integer> entry : this.stats.entrySet()) {
+            if (entry.getKey().equals(key)) {
+                return entry.getValue();
+            }
+        }
+		return 0;
     }
 
     public String getName(){

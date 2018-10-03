@@ -6,10 +6,11 @@ import java.util.Map;
 public class CardController{
 
     private Card card = new Card();
-
-    public List<Card> shuffleCards(List<Card> deck){
-        Collections.shuffle(deck);
-        return deck;
+	private CardParser cardParser = new CardParser();
+	
+    public void shuffleCards(){
+        Collections.shuffle(cardParser.getDeck());
+        
     }
 
     public void deleteCard(List<Card> cards){
@@ -17,16 +18,17 @@ public class CardController{
     }
 
     public void sendCardToPlayer(Card card, Player player){
-        List<Card> shuffledCardsList = shuffleCards(deck);
+        shuffleCards();
         // TO DO
     }
 
     public int getDealerParameter(String key){
-        for (Entry<String, Integer> entry : card.getStats().entrySet()) {
+        for (Map.Entry<String, Integer> entry : card.getStats().entrySet()) {
             if (entry.getKey().equals(key)) {
                 return entry.getValue();
             }
         }
+		return 0;
     }
 
 

@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.smartcardio.Card;
-
 public class Player{
     private String nick;
     private List<Card> hand = new ArrayList<>();
@@ -11,7 +9,7 @@ public class Player{
         this.isDealer = isDealer;
         this.nick = nick;
     }
-    public ArrayList<Card> getHand() {
+    public List<Card> getHand() {
         return this.hand;
     }
     
@@ -22,7 +20,7 @@ public class Player{
         this.isDealer = isDealer;
     }
     
-    public void setHand(List<Card> hand) {
+    public void setHand(ArrayList<Card> hand) {
         this.hand = hand;
     }
 }

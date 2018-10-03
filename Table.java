@@ -6,9 +6,8 @@ public class Table {
     private List<Card> listOfCards;
     private String dealerParameter;
     
-    public Table(String dealerParameter){
+    public Table(){
         this.listOfCards = new ArrayList<>();
-        this.dealerParameter = dealerParameter;
       }
       
     public List<Card> getListOfCards(){
@@ -18,5 +17,9 @@ public class Table {
     public String getDealerParameter(){
         return this.dealerParameter;
     }
+	
+	public void setDealerParameter(String newParameter){
+		this.dealerParameter=newParameter;
+	}
   
 }

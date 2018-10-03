@@ -2,14 +2,18 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import javax.smartcardio.Card;
-
 public class TableController {
+	private Table table;
+	
+	
+	public TableController(){
+		this.table = new Table();
+	}
 
-    public int checkMaxCardParam(List<Card> listOfCards){
+    public int checkMaxCardParam(ArrayList<Card> listOfCards){
         List<Integer> checkingParam = new ArrayList<>();
         for (Card card: listOfCards){
-            checkingParam.add(card.getDealerParameter(dealerParameter));
+            checkingParam.add(card.getDealerParameter(table.getDealerParameter()));
         }
         int maxParam = 0;
         for (int i = 0; i < checkingParam.size(); i++){
@@ -23,7 +27,7 @@ public class TableController {
     public List<Integer> checkIfDraw(List<Card> listOfCards, int maxParam){
         List<Integer> wonPlayers = new ArrayList<>();
         for (int i = 0; i < listOfCards.size(); i++){
-            if (card.getDealerParameter(dealerParameter) == maxParam){
+            if (listOfCards.get(i).getDealerParameter(table.getDealerParameter()) == maxParam){
                 wonPlayers.add(i);
             }
         }
