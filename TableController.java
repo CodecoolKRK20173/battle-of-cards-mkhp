@@ -39,21 +39,15 @@ public class TableController {
   
     public void sendCardsToWinner(List<Player> wonPlayers, List<Card> playedCards){
 		while(playedCards.size() != 0){
-			for(Player player: wonPlayers){
+            for(Player player: wonPlayers){
+			if (playedCards.size() >0){
 				player.getHand().add(playedCards.get(0));
-				playedCards.remove(0);
-			}
-		}
+                playedCards.remove(0);
+                }
+            }
+        }   
     }
+
+    
 }
 
-
-/*
-
-https://stackoverflow.com/questions/31378324/how-to-find-maximum-value-from-a-integer-using-stream-in-java-8
-
-Optional<Integer> max = list.stream().max(Comparator.naturalOrder());
-
-https://stackoverflow.com/questions/7414667/identify-duplicates-in-a-list (odp z 10 pkt)
-
-*/

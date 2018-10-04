@@ -3,9 +3,9 @@ import java.util.HashMap;
 
 public class Card{
 
-    private String type;
+    private String volumen;
     private String procent;
-    private String wrapping;
+    private String yearbook;
     private String hangover;
 
     private String name;
@@ -18,15 +18,15 @@ public class Card{
 
     }
     
-    public Card(String name, String type, String procent, String wrapping, String hangover){
-        this.type = type;
+    public Card(String name, String volumen, String procent, String yearbook, String hangover){
+        this.volumen = volumen;
         this.procent = procent;
-        this.wrapping = wrapping;
+        this.yearbook = yearbook;
         this.hangover = hangover;
         this.name=name;
-        this.stats.put("type", Integer.parseInt(type));
+        this.stats.put("volumen", Integer.parseInt(volumen));
         this.stats.put("procent", Integer.parseInt(procent));
-        this.stats.put("wrapping", Integer.parseInt(wrapping));
+        this.stats.put("yearbook", Integer.parseInt(yearbook));
         this.stats.put("hangover", Integer.parseInt(hangover));
     }
 	
