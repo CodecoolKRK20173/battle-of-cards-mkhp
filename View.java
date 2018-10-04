@@ -7,7 +7,12 @@ import java.util.Formatter;
 public class View{
 
     private CardParser cardParser = new CardParser();
+    private Card card = new Card();
     private String total = "";
+
+    public View(){
+        this.card = card;
+    }
 
     public StringBuilder createDashes(int scope, String sign){
         StringBuilder nazwa = new StringBuilder();
@@ -33,7 +38,7 @@ public class View{
         return nazwa;
     }
 
-    public String createCardDesign(){
+    public String createCardDesign(Card card){
         List<Card> deck = cardParser.getDeck();
         
         int maxName = "name".length();   
@@ -69,7 +74,7 @@ public class View{
         // firstLineOfHeader.append("+" + typeDashes + "-" + powerDashes + "+");
 
         StringBuilder secondLineOfHeader = new StringBuilder();
-        secondLineOfHeader.append(deck.get(0).getName());
+        secondLineOfHeader.append(card.getName());
 
         StringBuilder thirdLineOfHeader = new StringBuilder();
         thirdLineOfHeader.append("+" + typeDashes + "-" + powerDashes + "+");
@@ -96,21 +101,21 @@ public class View{
         String leftAlignFormat = "|%-" + maxLengthFromList + "s | %-" + 5 + "s|%n";
 
         Formatter formatter = new Formatter();
-        formatter.format(leftAlignFormat, "Volumen", deck.get(0).getStats().get("volumen"));
+        formatter.format(leftAlignFormat, "Volumen", card.getStats().get("volumen"));
         String finalText = formatter.toString();
 
         Formatter formatter2 = new Formatter();
-        formatter2.format(leftAlignFormat, "Procent", deck.get(0).getStats().get("procent"));
+        formatter2.format(leftAlignFormat, "Procent", card.getStats().get("procent"));
         String finalText2 = formatter2.toString();
 
         Formatter formatter3 = new Formatter();
-        formatter3.format(leftAlignFormat, "Yearbook", deck.get(0).getStats().get("yearbook"));
+        formatter3.format(leftAlignFormat, "Yearbook", card.getStats().get("yearbook"));
         String finalText3 = formatter3.toString();
 
         Formatter formatter4 = new Formatter();
-        formatter4.format(leftAlignFormat, "Hangover", deck.get(0).getStats().get("hangover"));
+        formatter4.format(leftAlignFormat, "Hangover", card.getStats().get("hangover"));
         String finalText4 = formatter4.toString();
-
+    
 
         StringBuilder lastLineTable = new StringBuilder();
         lastLineTable.append("|" + typeDashes + "+" + powerDashes + "|"); 
@@ -119,7 +124,7 @@ public class View{
         endLine.append("+" + typeDashes + "+" + powerDashes + "+");
         
         total += finalText + lastLineTable.toString() + "\n" + finalText2 + lastLineTable.toString() + "\n" + finalText3 + lastLineTable.toString() + "\n" +
-                 finalText4 + endLine.toString();
+                 finalText4 + endLine.toString() + "\n\n";
 
         // for(int i=0; i<deck.size(); i++){
 
@@ -138,9 +143,10 @@ public class View{
     }
 
     public static void main(String[] args){
+        CardParser a = new CardParser();
         View view = new View();
 
-        System.out.print(view.createCardDesign());
+        System.out.print(view.createCardDesign(a.getDeck().get(4)));
 
 
     }
