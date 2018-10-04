@@ -36,7 +36,7 @@ public class Card{
                 return entry.getValue();
             }
         }
-		return 0;
+		return 1000;
     }
 
     public String getName(){

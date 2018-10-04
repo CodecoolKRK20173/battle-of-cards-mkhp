@@ -13,7 +13,7 @@ public class TableController {
         return this.table;
     }
 
-    public int checkMaxCardParam(ArrayList<Card> listOfCards){
+    public int checkMaxCardParam(List<Card> listOfCards){
         List<Integer> checkingParam = new ArrayList<>();
         for (Card card: listOfCards){
             checkingParam.add(card.getDealerParameter(table.getDealerParameter()));

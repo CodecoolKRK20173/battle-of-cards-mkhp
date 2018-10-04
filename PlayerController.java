@@ -41,21 +41,20 @@ public class PlayerController{
     public void addPlayer(Player newPlayer){
         players.add(newPlayer);
     }
-    public Integer findDealer(List<Player> players){
+    public Integer setDealer(List<Player> players){
         int whoIsDealer = 0;
         return whoIsDealer;
     }
     public String dealerChooseParam(){ 
         Scanner in = new Scanner(System.in);
+        String chosenParam = "";
         try {
             System.out.println("Enter param: ");
-            String chosenParam = in.next();
+            chosenParam = in.nextLine();
             return chosenParam;
         } catch (InputMismatchException e){
             System.out.println("Please enter valid name");
-        }  finally {
-            in.close();
-        }
+        }  
         return null;
 
     }
