@@ -11,9 +11,6 @@ public class Card{
     private String name;
     private Map<String, Integer> stats = new HashMap<>();
 	
-	
-	
-
     public Card(){
 
     }

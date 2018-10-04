@@ -3,12 +3,13 @@ import java.util.Collections;
 import java.util.List;
 
 public class TableController {
+
 	private Table table;
-	
 	
 	public TableController(){
 		this.table = new Table();
     }
+
     public Table getTable(){
         return this.table;
     }
@@ -47,7 +48,5 @@ public class TableController {
             }
         }   
     }
-
-    
 }
 

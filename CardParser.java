@@ -12,13 +12,11 @@ public class CardParser{
 		this.deck=new ArrayList<>();
 		this.document=uploadFile("Cards.xml");
 		createDeck(this.document);
-	
 	}
 	
 	public List<Card> getDeck(){
 		return this.deck;
 	}
-	
 	
 	public Document uploadFile(String file){
 		try{
@@ -54,10 +52,5 @@ public class CardParser{
 			System.out.println();
 			}
 		return this.deck;
-	
 	}
-	
-
-	
-	
 }

@@ -15,7 +15,6 @@ public class CardController{
 	
     public void shuffleCards(){
         Collections.shuffle(cardParser.getDeck());
-        
     }
 
     public void deleteCard(List<Card> cards){
@@ -37,10 +36,8 @@ public class CardController{
 				player.getHand().add(cardParser.getDeck().get(0));
                 cardParser.getDeck().remove(0);
                 }
-
 			}
-		}
-				
+		}		
     }
 
     public int getDealerParameter(String key){
@@ -51,6 +48,4 @@ public class CardController{
         }
 		return 0;
     }
-
-
 }

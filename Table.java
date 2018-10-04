@@ -21,5 +21,4 @@ public class Table {
 	public void setDealerParameter(String newParameter){
 		this.dealerParameter=newParameter;
 	}
-  
 }

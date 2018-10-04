@@ -3,15 +3,13 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
-
-
 public class PlayerController{
+
     private List<Player> players;
+
     public PlayerController(){
         this.players = new ArrayList<Player>();
-		createPlayers();
-		
-		
+		createPlayers();	
     }
 	
 	public void createPlayers(){
@@ -29,18 +27,18 @@ public class PlayerController{
 			System.out.print("\nEnter nick : ");
 			String nick=in.nextLine();
 			players.add(new Player(nick));
-		}
-	
-		
+		}	
 	}
-	
 	
     public List<Player> getPlayers(){
         return this.players;
     }
+
     public void addPlayer(Player newPlayer){
         players.add(newPlayer);
     }
+
+
     public Integer setDealer(List<Player> players){
         int whoIsDealer = 0;
         return whoIsDealer;
@@ -49,14 +47,13 @@ public class PlayerController{
         Scanner in = new Scanner(System.in);
         String chosenParam = "";
         try {
-            System.out.println("Enter param: ");
+            System.out.println("Enter attribute: ");
             chosenParam = in.nextLine();
             return chosenParam;
         } catch (InputMismatchException e){
             System.out.println("Please enter valid name");
         }  
         return null;
-
     }
 
     public void nextDealer(Integer whoIsDealer){
@@ -86,12 +83,10 @@ public class PlayerController{
         }
         return isEmpty;
     }
+
     public void endGame(){
         if (isEmpty() == true){
             System.out.println("end game");
         }
     }
-    
-
-
 }

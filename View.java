@@ -57,8 +57,6 @@ public class View{
         maxLengthList.add(maxAttributes);
 
         int maxLengthFromList = Collections.max(maxLengthList);
-        
-        // System.out.println(maxLengthFromList);
 
         StringBuilder typeDashes = createDashes(maxLengthFromList, "-");
         StringBuilder powerDashes = createDashes(5, "-");
@@ -68,10 +66,6 @@ public class View{
 
         StringBuilder headerName = createSpacesForName(" ");
 
-
-
-        // StringBuilder firstLineOfHeader = new StringBuilder();
-        // firstLineOfHeader.append("+" + typeDashes + "-" + powerDashes + "+");
 
         StringBuilder secondLineOfHeader = new StringBuilder();
         secondLineOfHeader.append(card.getName());
@@ -85,17 +79,11 @@ public class View{
         StringBuilder fifthLineOfHeader = new StringBuilder();
         fifthLineOfHeader.append("|" + typeDashes + "+" + powerDashes + "|");
 
-        // System.out.println(firstLineOfHeader);
         System.out.println(secondLineOfHeader);
         System.out.println(thirdLineOfHeader);
         System.out.println(fourthLineOfHeader);
         System.out.println(fifthLineOfHeader);
 
-
-
-
-
-        //for(int i=0; i<deck.size(); i++){
         total = "";
 
         String leftAlignFormat = "|%-" + maxLengthFromList + "s | %-" + 5 + "s|%n";
@@ -126,28 +114,6 @@ public class View{
         total += finalText + lastLineTable.toString() + "\n" + finalText2 + lastLineTable.toString() + "\n" + finalText3 + lastLineTable.toString() + "\n" +
                  finalText4 + endLine.toString() + "\n\n";
 
-        // for(int i=0; i<deck.size(); i++){
-
-        //     String leftAlignFormat = "|%-" + maxLengthFromList + "s | %-" + 5 + "s|%n";
-
-        //     Formatter formatter = new Formatter();
-        //     formatter.format(leftAlignFormat, "Volumen", deck.get(0).getStats().get("volumen"));
-        //     String finalText = formatter.toString();
-
-        //     StringBuilder lastLineTable = new StringBuilder();
-        //     lastLineTable.append("|" + typeDashes + "+" + powerDashes + "|"); 
-            
-        //     total += finalText + lastLineTable.toString() + "\n";
-        // }
         return total;
-    }
-
-    public static void main(String[] args){
-        CardParser a = new CardParser();
-        View view = new View();
-
-        System.out.print(view.createCardDesign(a.getDeck().get(4)));
-
-
     }
 }
