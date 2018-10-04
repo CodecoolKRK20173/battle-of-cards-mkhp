@@ -1,87 +1,363 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Cards>
-	<Card name="a">
-		<Statistic id="a">1</Statistic>
-		<Statistic id="b">1</Statistic>
-		<Statistic id="c">1</Statistic>
-		<Statistic id="d">1</Statistic>
+	<Card name="beer Radler">
+		<Statistic id="volumen">300</Statistic>
+		<Statistic id="procent">2</Statistic>
+		<Statistic id="yearbook">1</Statistic>
+		<Statistic id="hangover">1</Statistic>
 	</Card>
-	<Card name="b">
-		<Statistic id="a">2</Statistic>
-		<Statistic id="b">2</Statistic>
-		<Statistic id="c">2</Statistic>
-		<Statistic id="d">2</Statistic>
+	<Card name="beer Lager">
+		<Statistic id="volumen">500</Statistic>
+		<Statistic id="procent">5</Statistic>
+		<Statistic id="yearbook">1</Statistic>
+		<Statistic id="hangover">1</Statistic>
 	</Card>
-	<Card name="c">
-		<Statistic id="a">3</Statistic>
-		<Statistic id="b">3</Statistic>
-		<Statistic id="c">3</Statistic>
-		<Statistic id="d">3</Statistic>
+	<Card name="beer Blone Ale">
+		<Statistic id="volumen">500</Statistic>
+		<Statistic id="procent">5</Statistic>
+		<Statistic id="yearbook">1</Statistic>
+		<Statistic id="hangover">1</Statistic>
 	</Card>
-	<Card name="d">
-		<Statistic id="a">4</Statistic>
-		<Statistic id="b">4</Statistic>
-		<Statistic id="c">4</Statistic>
-		<Statistic id="d">4</Statistic>
+	<Card name="beer Ipa">
+		<Statistic id="volumen">1000</Statistic>
+		<Statistic id="procent">5</Statistic>
+		<Statistic id="yearbook">1</Statistic>
+		<Statistic id="hangover">1</Statistic>
 	</Card>
-	<Card name="e">
-		<Statistic id="a">5</Statistic>
-		<Statistic id="b">5</Statistic>
-		<Statistic id="c">5</Statistic>
-		<Statistic id="d">5</Statistic>
+	<Card name="beer Amber Ale">
+		<Statistic id="volumen">1000</Statistic>
+		<Statistic id="procent">6</Statistic>
+		<Statistic id="yearbook">2</Statistic>
+		<Statistic id="hangover">2</Statistic>
 	</Card>
-	<Card name="f">
-		<Statistic id="a">6</Statistic>
-		<Statistic id="b">6</Statistic>
-		<Statistic id="c">6</Statistic>
-		<Statistic id="d">6</Statistic>
+	<Card name="beer Porter">
+		<Statistic id="volumen">500</Statistic>
+		<Statistic id="procent">8</Statistic>
+		<Statistic id="yearbook">2</Statistic>
+		<Statistic id="hangover">2</Statistic>
 	</Card>
-	<Card name="g">
-		<Statistic id="a">7</Statistic>
-		<Statistic id="b">7</Statistic>
-		<Statistic id="c">7</Statistic>
-		<Statistic id="d">7</Statistic>
+	<Card name="wine Reisling">
+		<Statistic id="volumen">750</Statistic>
+		<Statistic id="procent">8</Statistic>
+		<Statistic id="yearbook">5</Statistic>
+		<Statistic id="hangover">2</Statistic>
 	</Card>
-	<Card name="h">
-		<Statistic id="a">8</Statistic>
-		<Statistic id="b">8</Statistic>
-		<Statistic id="c">8</Statistic>
-		<Statistic id="d">8</Statistic>
+	<Card name="wine Moscato">
+		<Statistic id="volumen">750</Statistic>
+		<Statistic id="procent">9</Statistic>
+		<Statistic id="yearbook">10</Statistic>
+		<Statistic id="hangover">3</Statistic>
 	</Card>
-	<Card name="i">
-		<Statistic id="a">9</Statistic>
-		<Statistic id="b">9</Statistic>
-		<Statistic id="c">9</Statistic>
-		<Statistic id="d">9</Statistic>
+	<Card name="wine Chordonnay">
+		<Statistic id="volumen">750</Statistic>
+		<Statistic id="procent">10</Statistic>
+		<Statistic id="yearbook">8</Statistic>
+		<Statistic id="hangover">1</Statistic>
 	</Card>
-	<Card name="j">
-		<Statistic id="a">10</Statistic>
-		<Statistic id="b">10</Statistic>
-		<Statistic id="c">10</Statistic>
-		<Statistic id="d">10</Statistic>
+	<Card name="wine Champagne">
+		<Statistic id="volumen">750</Statistic>
+		<Statistic id="procent">10</Statistic>
+		<Statistic id="yearbook">12</Statistic>
+		<Statistic id="hangover">4</Statistic>
 	</Card>
-	<Card name="k">
-		<Statistic id="a">11</Statistic>
-		<Statistic id="b">11</Statistic>
-		<Statistic id="c">11</Statistic>
-		<Statistic id="d">11</Statistic>
+	<Card name="wine Pino Noir">
+		<Statistic id="volumen">750</Statistic>
+		<Statistic id="procent">11</Statistic>
+		<Statistic id="yearbook">15</Statistic>
+		<Statistic id="hangover">4</Statistic>
 	</Card>
-	<Card name="l">
-		<Statistic id="a">12</Statistic>
-		<Statistic id="b">12</Statistic>
-		<Statistic id="c">12</Statistic>
-		<Statistic id="d">12</Statistic>
+	<Card name="wine Merlot">
+		<Statistic id="volumen">750</Statistic>
+		<Statistic id="procent">12</Statistic>
+		<Statistic id="yearbook">30</Statistic>
+		<Statistic id="hangover">5</Statistic>
 	</Card>
-	<Card name="m">
-		<Statistic id="a">51</Statistic>
-		<Statistic id="b">15</Statistic>
-		<Statistic id="c">15</Statistic>
-		<Statistic id="d">15</Statistic>
+	<Card name="drink Cosmopolitan">
+		<Statistic id="volumen">250</Statistic>
+		<Statistic id="procent">5</Statistic>
+		<Statistic id="yearbook">0</Statistic>
+		<Statistic id="hangover">2</Statistic>
 	</Card>
-	<Card name="n">
-		<Statistic id="a">14</Statistic>
-		<Statistic id="b">14</Statistic>
-		<Statistic id="c">14</Statistic>
-		<Statistic id="d">14</Statistic>
+	<Card name="drink Margarita">
+		<Statistic id="volumen">200</Statistic>
+		<Statistic id="procent">4</Statistic>
+		<Statistic id="yearbook">0</Statistic>
+		<Statistic id="hangover">3</Statistic>
+	</Card>
+	<Card name="drink Sex on the beach">
+		<Statistic id="volumen">300</Statistic>
+		<Statistic id="procent">5</Statistic>
+		<Statistic id="yearbook">0</Statistic>
+		<Statistic id="hangover">4</Statistic>
+	</Card>
+	<Card name="drink Moscow Mule">
+		<Statistic id="volumen">200</Statistic>
+		<Statistic id="procent">3</Statistic>
+		<Statistic id="yearbook">0</Statistic>
+		<Statistic id="hangover">3</Statistic>
+	</Card>
+	<Card name="drink Bloody Mary">
+		<Statistic id="volumen">300</Statistic>
+		<Statistic id="procent">8</Statistic>
+		<Statistic id="yearbook">0</Statistic>
+		<Statistic id="hangover">4</Statistic>
+	</Card>
+	<Card name="drink LongIsland">
+		<Statistic id="volumen">250</Statistic>
+		<Statistic id="procent">8</Statistic>
+		<Statistic id="yearbook">0</Statistic>
+		<Statistic id="hangover">4</Statistic>
+	</Card>
+	<Card name="shot Monte">
+		<Statistic id="volumen">100</Statistic>
+		<Statistic id="procent">15</Statistic>
+		<Statistic id="yearbook">0</Statistic>
+		<Statistic id="hangover">3</Statistic>
+	</Card>
+	<Card name="shot Chupa chups">
+		<Statistic id="volumen">100</Statistic>
+		<Statistic id="procent">15</Statistic>
+		<Statistic id="yearbook">0</Statistic>
+		<Statistic id="hangover">2</Statistic>
+	</Card>
+	<Card name="shot Mad dog">
+		<Statistic id="volumen">100</Statistic>
+		<Statistic id="procent">15</Statistic>
+		<Statistic id="yearbook">0</Statistic>
+		<Statistic id="hangover">3</Statistic>
+	</Card>
+	<Card name="shot Coconut">
+		<Statistic id="volumen">100</Statistic>
+		<Statistic id="procent">15</Statistic>
+		<Statistic id="yearbook">0</Statistic>
+		<Statistic id="hangover">2</Statistic>
+	</Card>
+	<Card name="shot Polo-Cocta">
+		<Statistic id="volumen">100</Statistic>
+		<Statistic id="procent">15</Statistic>
+		<Statistic id="yearbook">0</Statistic>
+		<Statistic id="hangover">2</Statistic>
+	</Card>
+	<Card name="shot Kamikaze">
+		<Statistic id="volumen">100</Statistic>
+		<Statistic id="procent">15</Statistic>
+		<Statistic id="yearbook">0</Statistic>
+		<Statistic id="hangover">3</Statistic>
+	</Card>
+	<Card name="liqueur Vanilla">
+		<Statistic id="volumen">400</Statistic>
+		<Statistic id="procent">23</Statistic>
+		<Statistic id="yearbook">2</Statistic>
+		<Statistic id="hangover">3</Statistic>
+	</Card>
+	<Card name="liqueur Coffee">
+		<Statistic id="volumen">400</Statistic>
+		<Statistic id="procent">28</Statistic>
+		<Statistic id="yearbook">5</Statistic>
+		<Statistic id="hangover">4</Statistic>
+	</Card>
+	<Card name="liqueur Hazelnut">
+		<Statistic id="volumen">500</Statistic>
+		<Statistic id="procent">33</Statistic>
+		<Statistic id="yearbook">8</Statistic>
+		<Statistic id="hangover">4</Statistic>
+	</Card>
+	<Card name="liqueur Orange">
+		<Statistic id="volumen">500</Statistic>
+		<Statistic id="procent">35</Statistic>
+		<Statistic id="yearbook">3</Statistic>
+		<Statistic id="hangover">6</Statistic>
+	</Card>
+	<Card name="liqueur Cherry">
+		<Statistic id="volumen">1000</Statistic>
+		<Statistic id="procent">38</Statistic>
+		<Statistic id="yearbook">12</Statistic>
+		<Statistic id="hangover">5</Statistic>
+	</Card>
+	<Card name="liqueur Strawberry">
+		<Statistic id="volumen">1000</Statistic>
+		<Statistic id="procent">45</Statistic>
+		<Statistic id="yearbook">15</Statistic>
+		<Statistic id="hangover">3</Statistic>
+	</Card>
+	<Card name="Tequila Silver Blanco">
+		<Statistic id="volumen">500</Statistic>
+		<Statistic id="procent">35</Statistic>
+		<Statistic id="yearbook">5</Statistic>
+		<Statistic id="hangover">2</Statistic>
+	</Card>
+	<Card name="Tequila  Gold-Joven">
+		<Statistic id="volumen">500</Statistic>
+		<Statistic id="procent">38</Statistic>
+		<Statistic id="yearbook">8</Statistic>
+		<Statistic id="hangover">3</Statistic>
+	</Card>
+	<Card name="Tequila Reposado">
+		<Statistic id="volumen">500</Statistic>
+		<Statistic id="procent">25</Statistic>
+		<Statistic id="yearbook">12</Statistic>
+		<Statistic id="hangover">4</Statistic>
+	</Card>
+	<Card name="Tequila Anejo">
+		<Statistic id="volumen">700</Statistic>
+		<Statistic id="procent">38</Statistic>
+		<Statistic id="yearbook">8</Statistic>
+		<Statistic id="hangover">2</Statistic>
+	</Card>
+	<Card name="Tequila Extra Anejo">
+		<Statistic id="volumen">700</Statistic>
+		<Statistic id="procent">45</Statistic>
+		<Statistic id="yearbook">6</Statistic>
+		<Statistic id="hangover">3</Statistic>
+	</Card>
+	<Card name="Tequila Lime">
+		<Statistic id="volumen">700</Statistic>
+		<Statistic id="procent">55</Statistic>
+		<Statistic id="yearbook">20</Statistic>
+		<Statistic id="hangover">3</Statistic>
+	</Card>
+	<Card name="whiskey Scotch">
+		<Statistic id="volumen">700</Statistic>
+		<Statistic id="procent">40</Statistic>
+		<Statistic id="yearbook">10</Statistic>
+		<Statistic id="hangover">5</Statistic>
+	</Card>
+	<Card name="whiskey Irish">
+		<Statistic id="volumen">700</Statistic>
+		<Statistic id="procent">40</Statistic>
+		<Statistic id="yearbook">12</Statistic>
+		<Statistic id="hangover">5</Statistic>
+	</Card>
+	<Card name="whiskey Single Malt">
+		<Statistic id="volumen">700</Statistic>
+		<Statistic id="procent">40</Statistic>
+		<Statistic id="yearbook">15</Statistic>
+		<Statistic id="hangover">5</Statistic>
+	</Card>
+	<Card name="whiskey Blend">
+		<Statistic id="volumen">1000</Statistic>
+		<Statistic id="procent">40</Statistic>
+		<Statistic id="yearbook">18</Statistic>
+		<Statistic id="hangover">4</Statistic>
+	</Card>
+	<Card name="whiskey Bourbon">
+		<Statistic id="volumen">600</Statistic>
+		<Statistic id="procent">40</Statistic>
+		<Statistic id="yearbook">20</Statistic>
+		<Statistic id="hangover">4</Statistic>
+	</Card>
+	<Card name="whiskey Rye">
+		<Statistic id="volumen">600</Statistic>
+		<Statistic id="procent">40</Statistic>
+		<Statistic id="yearbook">30</Statistic>
+		<Statistic id="hangover">4</Statistic>
+	</Card>
+	<Card name="vodka Smirnoff">
+		<Statistic id="volumen">500</Statistic>
+		<Statistic id="procent">40</Statistic>
+		<Statistic id="yearbook">5</Statistic>
+		<Statistic id="hangover">6</Statistic>
+	</Card>
+	<Card name="vodka Absolut">
+		<Statistic id="volumen">1000</Statistic>
+		<Statistic id="procent">40</Statistic>
+		<Statistic id="yearbook">2</Statistic>
+		<Statistic id="hangover">6</Statistic>
+	</Card>
+	<Card name="vodka Zubrowka">
+		<Statistic id="volumen">700</Statistic>
+		<Statistic id="procent">40</Statistic>
+		<Statistic id="yearbook">5</Statistic>
+		<Statistic id="hangover">6</Statistic>
+	</Card>
+	<Card name="vodka Krupnik">
+		<Statistic id="volumen">1000</Statistic>
+		<Statistic id="procent">40</Statistic>
+		<Statistic id="yearbook">3</Statistic>
+		<Statistic id="hangover">6</Statistic>
+	</Card>
+	<Card name="vodka Chopin">
+		<Statistic id="volumen">700</Statistic>
+		<Statistic id="procent">40</Statistic>
+		<Statistic id="yearbook">8</Statistic>
+		<Statistic id="hangover">6</Statistic>
+	</Card>
+	<Card name="vodka Belvedere">
+		<Statistic id="volumen">700</Statistic>
+		<Statistic id="procent">40</Statistic>
+		<Statistic id="yearbook">12</Statistic>
+		<Statistic id="hangover">6</Statistic>
+	</Card>
+	<Card name="rum Bacardi">
+		<Statistic id="volumen">700</Statistic>
+		<Statistic id="procent">32</Statistic>
+		<Statistic id="yearbook">8</Statistic>
+		<Statistic id="hangover">5</Statistic>
+	</Card>
+	<Card name="rum Nalewka Babuni">
+		<Statistic id="volumen">1000</Statistic>
+		<Statistic id="procent">50</Statistic>
+		<Statistic id="yearbook">5</Statistic>
+		<Statistic id="hangover">4</Statistic>
+	</Card>
+	<Card name="rum Captain Morgan">
+		<Statistic id="volumen">1500</Statistic>
+		<Statistic id="procent">60</Statistic>
+		<Statistic id="yearbook">12</Statistic>
+		<Statistic id="hangover">5</Statistic>
+	</Card>
+	<Card name="rum Tobacco">
+		<Statistic id="volumen">1500</Statistic>
+		<Statistic id="procent">70</Statistic>
+		<Statistic id="yearbook">18</Statistic>
+		<Statistic id="hangover">5</Statistic>
+	</Card>
+	<Card name="rum Havana">
+		<Statistic id="volumen">300</Statistic>
+		<Statistic id="procent">80</Statistic>
+		<Statistic id="yearbook">15</Statistic>
+		<Statistic id="hangover">6</Statistic>
+	</Card>
+	<Card name="Spiritus">
+		<Statistic id="volumen">500</Statistic>
+		<Statistic id="procent">96</Statistic>
+		<Statistic id="yearbook">20</Statistic>
+		<Statistic id="hangover">6</Statistic>
+	</Card>
+	<Card name="gin Tanqueray No.Ten">
+		<Statistic id="volumen">700</Statistic>
+		<Statistic id="procent">47</Statistic>
+		<Statistic id="yearbook">20</Statistic>
+		<Statistic id="hangover">3</Statistic>
+	</Card>
+	<Card name="gin Monkey 47">
+		<Statistic id="volumen">500</Statistic>
+		<Statistic id="procent">47</Statistic>
+		<Statistic id="yearbook">23</Statistic>
+		<Statistic id="hangover">3</Statistic>
+	</Card>
+	<Card name="gin Hendricks">
+		<Statistic id="volumen">700</Statistic>
+		<Statistic id="procent">41</Statistic>
+		<Statistic id="yearbook">25</Statistic>
+		<Statistic id="hangover">2</Statistic>
+	</Card>
+	<Card name="gin Bombay">
+		<Statistic id="volumen">700</Statistic>
+		<Statistic id="procent">40</Statistic>
+		<Statistic id="yearbook">5</Statistic>
+		<Statistic id="hangover">5</Statistic>
+	</Card>
+	<Card name="gin Gordons">
+		<Statistic id="volumen">700</Statistic>
+		<Statistic id="procent">40</Statistic>
+		<Statistic id="yearbook">2</Statistic>
+		<Statistic id="hangover">4</Statistic>
+	</Card>
+	<Card name="gin Seagrams">
+		<Statistic id="volumen">500</Statistic>
+		<Statistic id="procent">40</Statistic>
+		<Statistic id="yearbook">1</Statistic>
+		<Statistic id="hangover">6</Statistic>
 	</Card>
 </Cards>
